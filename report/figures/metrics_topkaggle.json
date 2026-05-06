@@ -1,0 +1,27 @@
+{
+  "Stacked-Linear": {
+    "rmse_log": 0.1101,
+    "r2": 0.9281,
+    "mae_usd": 12433.0
+  },
+  "XGBoost (tuned)": {
+    "rmse_log": 0.1172,
+    "r2": 0.9185,
+    "mae_usd": 13598.2
+  },
+  "LightGBM (tuned)": {
+    "rmse_log": 0.1235,
+    "r2": 0.9095,
+    "mae_usd": 13695.1
+  },
+  "CatBoost (tuned)": {
+    "rmse_log": 0.1134,
+    "r2": 0.9237,
+    "mae_usd": 13047.3
+  },
+  "Blended (40/20/20/20)": {
+    "rmse_log": 0.111,
+    "r2": 0.9269,
+    "mae_usd": 12398.5
+  }
+}
